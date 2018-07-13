@@ -1,0 +1,49 @@
+.header {
+  background: #466874;
+  width: 100vw;
+  /* width: 100%; */
+  height: 10vw;
+  border-top: 0.5vw solid;
+  border-bottom: 0.5vw solid;
+  border-color: #f7f7e2;
+  display: flex;
+  align-items: center;
+  max-height: 150px;
+  z-index: 1;
+}
+
+
+.avatar_photo__mex {
+  width: 15vw;
+  /* width: 210px; */
+  height: 15vw;
+  border-radius: 50%;
+  border: 0.5vw solid;
+  border-color: #f7f7e2;
+  background-color: #f7f7e2;
+  min-width: 110px;
+  min-height: 110px;
+  margin: 1vw;
+}
+
+.header_title {
+  display: block;
+  width: auto;
+  height: auto;
+  color: #f7f7e2;
+  font-size: 2vw;
+  margin: 5px;
+  text-align: center;
+  padding: 0;
+}
+
+.info_name
+{
+  font-size: 1.5vw;
+  text-align: center
+}
+.info_post
+{
+  font-size: 1vw;
+  text-align: center;
+}

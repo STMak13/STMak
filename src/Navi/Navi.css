@@ -1,0 +1,54 @@
+.navi{
+  top: 2vw;
+  right: 2vw;
+  width: 5vw;
+  height: 5vw;
+  /* background-color: red; */
+  border-radius: 50%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+}
+
+.menu-btn
+{
+  width: 4vw;
+  height: 4vw;
+  background-color: #466874;
+  display: block;
+  position: relative;
+  border-radius: 50%;
+  border: 2px solid #f7f7e2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.burger,
+.burger::before,
+.burger::after
+{
+  position: absolute;
+  width: 2vw;
+  height: 2px;
+  background: #f7f7e2;
+}
+
+.burger::before,
+.burger::after
+{
+  content: '';
+  transition: 0.5s;
+}
+
+.burger::before
+{
+  transform: translateY(-0.5vw);
+}
+
+.burger::after
+{
+  transform: translateY(0.5vw);
+}
